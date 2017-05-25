@@ -179,6 +179,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <None Include="users.dat" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -190,6 +191,18 @@
     <Resource Include="icon.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="1.txt" />
+    <Resource Include="1translate.txt" />
+    <Resource Include="2.txt" />
+    <Resource Include="2translate.txt" />
+    <Resource Include="3.txt" />
+    <Resource Include="3translate.txt" />
+    <Resource Include="4.txt" />
+    <Resource Include="4translate.txt" />
+    <Resource Include="5.txt" />
+    <Resource Include="5translate.txt" />
+    <Resource Include="6.txt" />
+    <Resource Include="6translate.txt" />
     <Content Include="DataBase.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -197,6 +210,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DataBase.mdf</DependentUpon>
     </Content>
+    <Resource Include="lyricdata.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
